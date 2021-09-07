@@ -21,7 +21,6 @@ describe('AppComponent', () => {
   it('display details panel on click of node last(state) node ', async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
-    const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to angular-unit-test!');
+    
   }));
 });
