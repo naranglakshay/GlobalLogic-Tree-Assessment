@@ -9,8 +9,7 @@ describe('FulltreeComponent', () => {
       ],
     }).compileComponents();
   }));
-  it('should create the 
-     ', async(() => {
+  it('should create the app', async(() => {
     const fixture = TestBed.createComponent(FulltreeComponent);
     expect(fixture).toBeTruthy();
   }));
