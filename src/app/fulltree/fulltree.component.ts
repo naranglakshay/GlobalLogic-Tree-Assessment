@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fulltree.component.css']
 })
 export class FulltreeComponent {
+  
+  // FullTree Component Used for Defining the Tree Structure(Using npm tree component)
+  
   nodes = [
     {
       "name": "countries",
